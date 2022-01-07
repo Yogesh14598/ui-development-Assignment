@@ -1,0 +1,45 @@
+/* playfair-display-regular - latin */
+/* lato-300italic - latin */ 
+/* poppins-300italic - latin */
+@font-face {
+    font-family: 'DMSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/DMSans-Regular.ttf'); /* IE9 Compat Modes */
+ 
+  }
+  @font-face {
+    font-family: 'DMSans';
+    font-style: bold;
+    font-weight: bold;
+    src: url('../fonts/DMSans-Bold.ttf'); /* IE9 Compat Modes */
+ 
+  }
+  @font-face {
+    font-family: 'DMSans';
+    font-style: BoldItalic;
+    font-weight: 500;
+    src: url('../fonts/DMSans-BoldItalic.ttf'); /* IE9 Compat Modes */
+ 
+  }
+  @font-face {
+    font-family: 'DMSans';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/DMSans-Italic.ttf'); /* IE9 Compat Modes */
+ 
+  }
+  @font-face {
+    font-family: 'DMSans';
+    font-style: Medium;
+    font-weight: 300;
+    src: url('../fonts/DMSans-Medium.ttf'); /* IE9 Compat Modes */
+ 
+  }
+  @font-face {
+    font-family: 'DMSans';
+    font-style: MediumItalic;
+    font-weight: 300;
+    src: url('../fonts/DMSans-MediumItalic.ttf'); /* IE9 Compat Modes */
+ 
+  }

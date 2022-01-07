@@ -1,0 +1,413 @@
+* html, body {
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: normal;
+    font-size: normal;
+    scroll-behavior: smooth;
+    font-family: DMSans;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.investment {
+    width: 100%;
+    padding: 0 50px;
+    margin-top: 100px;
+}
+.investment_banner {
+    display: flex;
+    justify-content: space-between;
+}
+.investment_banner_left h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 75.6px;
+     background: linear-gradient(84.79deg, #4313A1 0%, #BD4238 99.99%, #FF5C00 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    
+}
+.investment_banner_left p {
+    font-size: 24px;
+    font-family: DMSans;
+    font-weight: 400;
+    line-height: 36px;
+}
+button.banner_btn {
+    background: #4313A1;
+    color: #fff;
+}
+.invest_card {
+    background: #EFBCCE40;
+}
+button.banner_btn {
+    background: #4313A1;
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px 20px;
+    border: none;
+}
+.invest_card_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invest_card_blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.invest_card {
+    background: #EFBCCE40;
+    /* display: flex; */
+    padding: 30px 50px;
+    font-family: 'DMSans';
+    border-radius: 20px;
+}
+
+.investment_solns_block button {
+    padding: 6px 24px;
+    background: #EBE3FD40;
+    border: none;
+    border-radius: 20px;
+    color: #4313A1;
+}
+.investment_solns_block h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    background: linear-gradient(
+84.79deg, #4313A1 0%, #BD4238 99.99%, #FF5C00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 20px auto;
+}
+.invest_card1 {
+    background: #FFE0AD40;
+    margin: 10px ;
+       padding: 30px 50px;
+    border-radius: 20px;
+    width: 50%;
+}
+.invest_card2 {
+    background: #FFC5AD40;
+    margin: 10px ;
+       padding: 30px 50px;
+    border-radius: 20px;
+    width: 50%;
+}
+.invest_card_main {
+    display: flex;
+}
+.submenu{
+    text-align: center;
+}
+.why_us_card_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+} 
+.investment_solns_block.knowinvesting ul li {
+    padding: 12px 5px;
+    width: 85%;
+}
+
+.owl-prev span {
+    font-size: 50px;
+    position: absolute;
+    top: 27%;
+    left: -45px;
+    width: 30px;
+    color: transparent;
+}
+
+.owl-next span {
+    color: transparent;
+    font-size: 50px;
+    position: absolute;
+    top: 27%;
+    right: -45px;
+    width: 30px;
+}
+.footer {
+    background: #190049;
+    color: #fff;
+}
+.footer hr{
+    background: #fff;
+}
+
+.footer_center{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+.footer_center ul {
+    padding: 0 5px;
+    list-style-type: none;
+}
+.footer_center ul li{
+font-size: 14px !important;
+padding: 10px 0;
+} 
+.footer_right ul {
+    padding: 0 5px;
+    list-style-type: none;
+}
+.footer_right ul li{
+font-size: 14px !important;
+padding: 10px 0;
+}
+
+.footer_block h3 {
+    font-size: 16px;
+}
+.footer_left h3 {
+    font-size: 32px;
+}
+ .head_sec_l{
+    display: flex;
+    justify-content: space-between;
+}
+ .footer_sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .footer_lastitem {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head_sec {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.investment_whyus_block {
+    width: 92%;
+    margin: 50px auto -40px;
+}
+.investment_whyus_block button {
+    padding: 6px 24px;
+    background: #EBE3FD40;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+}
+.investment_whyus_block h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    background: linear-gradient( 
+84.79deg, #4313A1 0%, #BD4238 99.99%, #FF5C00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin: 20px auto;
+}
+
+#nav_icon {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    margin: 5px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #nav_icon span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #4313A1;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  
+  #nav_icon span:nth-child(1) {
+    top: 0px;
+  }
+  
+  #nav_icon span:nth-child(2) {
+    top: 10px;
+  }
+  
+  #nav_icon span:nth-child(3) {
+    top: 20px;
+  }
+  
+  #nav_icon.open span:nth-child(1) {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  
+  #nav_icon.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+  .head_sec_l {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+.head_sec_r {
+    width: 25%;
+}
+  
+.nav_brand{
+    font-size: 42px;
+    background: linear-gradient(
+        84.79deg, #4313A1 0%, #BD4238 99.99%, #FF5C00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+  #nav_icon.open span:nth-child(3) {
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+  
+  .head_block {
+    margin: 5px 50px;
+    padding: 0 50px;
+}
+.investment_banner_left {
+    padding: 0 140px 0 50px;
+}
+
+
+.investment_solns {
+    margin: 40px auto;
+    width: 80%;
+}
+.invest_card_block_left h4 {
+    font-size: 24px;
+}
+.invest_card_block_left p {
+    font-size: 18px;
+}
+.invest_card_block_left h6 {
+    font-size: 15px;
+    color: #D67F9C;
+} 
+.invest_card_block_left label {
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 5px;
+}
+.invest_card_block_left{
+    width: 60%;
+}
+.why_us_card {
+    width: 350px;
+    border-bottom: 1px doted #000;
+    border: none;
+    border-right: 2px dotted;
+    padding: 0 40px;
+    text-align: center;
+} 
+.card_img label {
+    border-radius: 50%;
+    background: #FFF7EA;
+    padding: 15px;
+}
+.investment_whyus {
+    margin: 70px auto;
+} 
+.investment_solns_block.knowinvesting {
+    width: 50%;
+}
+.sliderlist {
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 32px rgb(61 75 92 / 5%);
+    border-radius: 0px 0px 12px 12px;
+    padding: 20px 5px;
+    margin: auto;
+}
+.sliderlist h2 {
+    font-size: 20px;
+}
+
+.sliderlist p {
+    font-size: 12px;
+}
+.newsletter h4 {
+    color: #4313A1;
+    text-align: center;
+    font-size: 32px;
+}
+.newsletter p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+.newsletter {
+    text-align: center;
+    margin: auto;
+    background: #F5F2FE;
+    padding: 50px;
+}
+.footer_block {
+    padding: 80px 60px;
+}
+input.newletter_input {
+    background: rgba(38, 11, 91, 0.05);
+    border: 1px solid rgba(38, 11, 91, 0.11);
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 35%;
+    text-align: left;
+    margin: 30px auto;
+    height: 48px;
+    padding: 0 20px;
+}
+button.newsletterbtn {
+    background: #4313A1;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px 40px;
+    border: none;
+    margin-left: -50px;
+    height: 48px;
+}
+
+.footer_left img{
+    width: 25px;
+}
+.head_sec_block_items {
+    display: flex;
+    justify-content: space-around;
+}
